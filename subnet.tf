@@ -16,3 +16,6 @@ resource "aws_subnet" "private" {
   tags = {
     Name        = "sravani_private"
     Environment = "${terraform.workspace}"
+  }
+}
+
